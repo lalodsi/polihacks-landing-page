@@ -1,0 +1,133 @@
+header{
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 170px;
+    background-image: url("images/background/hackathon.png");
+    background-size: cover;
+}
+header .navbar-nav a{
+    color: white;
+    width: max-content;
+}
+header div{
+    width: 100%;
+}
+header #menu-elements{
+    justify-content: space-around;
+    padding-right: 180px;
+    padding-left: 180px;
+    min-width: fit-content;
+}
+
+#logo{
+    width: 100px;
+}
+#banner{
+    color: white;
+    padding-bottom: 300px;
+}
+
+.banner_text:nth-child(1) {
+    font-size: 7.5em;
+    font-weight: 900;
+    color: #5ea9de8c;
+    margin-top: 90px;
+    margin-bottom: -40px;
+}
+.banner_text:nth-child(2) {
+    font-size: 59px;
+    font-weight: 900;
+}
+.banner_text:nth-child(3) {
+    font-size: 61px;
+    margin-top: -45px;
+}
+.banner_text:nth-child(4) {
+    font-size: 23px;
+    margin-top: -14px;
+    margin-bottom: 40px;
+}
+
+#sign-up button{
+    width: 220px;
+    height: 47px;
+    border-radius: 30px;
+    background-color: #ffc022;
+    color: #05347e;
+    font-size: 21px;
+    font-weight: 700;
+    border: none;
+
+}
+#sign-up{
+    background: #FFFFFF30;
+    display: inline;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 46px;
+}
+
+.about{
+    color: #fff;
+    background-color: #1a1f3c;
+    box-shadow: 0px -20px 20px 20px rgb(26 31 60);
+}
+.about img{
+    width: 100%;
+    margin-top: -50px;
+}
+
+#about-text{
+    padding-top: 100px;
+}
+
+@media (max-width: 1150px) {
+
+    .banner_text:nth-child(1) {
+        margin-top: 0px;
+    }
+    #banner{
+        padding-bottom: 200px;
+    }
+    #about-text{
+        padding-top: 0px;
+    }
+  }
+
+  @media (max-width: 970px) {
+
+    header #menu-elements{
+        justify-content: space-around;
+        padding-right: 0px;
+        padding-left: 0px;
+        min-width: fit-content;
+    }
+    #banner{
+        padding-bottom: 100px;
+    }
+}
+@media (max-width: 775px) {
+
+    header{
+        background-size: auto;
+        padding-right: 60px;
+    }
+    #banner{
+        padding-bottom: 100px;
+        padding-right: 0px;
+    }
+    #banner p{
+        text-align: center;
+    }
+    #sign-up{
+        margin: auto;
+        width: fit-content;
+        display: flex;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+}

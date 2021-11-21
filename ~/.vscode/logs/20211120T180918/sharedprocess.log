@@ -1,0 +1,58 @@
+[2021-11-20 18:09:37.250] [sharedprocess] [info] Deleted from disk ms-python.vscode-pylance /root/.vscode/extensions/ms-python.vscode-pylance-2021.9.3
+[2021-11-20 18:09:39.022] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-11-20 18:09:39.076] [sharedprocess] [info] Installing extension: dbaeumer.vscode-eslint
+[2021-11-20 18:09:39.080] [sharedprocess] [info] Installing extension: ms-azuretools.vscode-azurefunctions
+[2021-11-20 18:09:39.080] [sharedprocess] [info] Installing extension: ms-azuretools.vscode-docker
+[2021-11-20 18:09:39.084] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2021-11-20 18:09:39.085] [sharedprocess] [info] Installing extension: ms-vscode.azure-account
+[2021-11-20 18:09:39.085] [sharedprocess] [info] Installing extension: redhat.java
+[2021-11-20 18:09:39.091] [sharedprocess] [info] Installing extension: vscjava.vscode-java-pack
+[2021-11-20 18:09:39.092] [sharedprocess] [info] Installing extension: vscjava.vscode-maven
+[2021-11-20 18:09:57.729] [sharedprocess] [info] Downloaded extension: ms-azuretools.vscode-docker /root/Escritorio/polihacks_landing/polihacks-landing-page/~/.vscode/CachedExtensionVSIXs/ms-azuretools.vscode-docker-1.18.0
+[2021-11-20 18:09:57.906] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.b834d0c9-4b94-40e3-83a6-222efe54026d: ms-azuretools.vscode-docker
+[2021-11-20 18:09:57.966] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-azuretools.vscode-docker-1.18.0
+[2021-11-20 18:09:57.972] [sharedprocess] [info] Installation completed. ms-azuretools.vscode-docker
+[2021-11-20 18:09:58.078] [sharedprocess] [info] Extensions installed successfully: ms-azuretools.vscode-docker
+[2021-11-20 18:09:59.022] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-11-20 18:09:59.022] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-11-20 18:10:07.482] [sharedprocess] [info] Downloaded extension: dbaeumer.vscode-eslint /root/Escritorio/polihacks_landing/polihacks-landing-page/~/.vscode/CachedExtensionVSIXs/dbaeumer.vscode-eslint-2.2.1
+[2021-11-20 18:10:07.895] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.2e095102-e184-41b9-a8ea-ec266ef0608c: dbaeumer.vscode-eslint
+[2021-11-20 18:10:07.984] [sharedprocess] [info] Renamed to /root/.vscode/extensions/dbaeumer.vscode-eslint-2.2.1
+[2021-11-20 18:10:07.985] [sharedprocess] [info] Installation completed. dbaeumer.vscode-eslint
+[2021-11-20 18:10:08.084] [sharedprocess] [info] Extensions installed successfully: dbaeumer.vscode-eslint
+[2021-11-20 18:10:09.022] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-11-20 18:10:12.269] [sharedprocess] [info] Downloaded extension: ms-vscode.azure-account /root/Escritorio/polihacks_landing/polihacks-landing-page/~/.vscode/CachedExtensionVSIXs/ms-vscode.azure-account-0.9.11
+[2021-11-20 18:10:12.421] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.f15364ae-2553-442d-bc91-c0f83ebead11: ms-vscode.azure-account
+[2021-11-20 18:10:12.516] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-vscode.azure-account-0.9.11
+[2021-11-20 18:10:12.518] [sharedprocess] [info] Installation completed. ms-vscode.azure-account
+[2021-11-20 18:10:12.869] [sharedprocess] [info] Extensions installed successfully: ms-vscode.azure-account
+[2021-11-20 18:10:15.670] [sharedprocess] [info] Extensions is already requested to install ms-azuretools.vscode-azurefunctions
+[2021-11-20 18:10:15.670] [sharedprocess] [info] Extensions is already requested to install ms-python.vscode-pylance
+[2021-11-20 18:10:15.671] [sharedprocess] [info] Extensions is already requested to install redhat.java
+[2021-11-20 18:10:15.672] [sharedprocess] [info] Extensions is already requested to install vscjava.vscode-java-pack
+[2021-11-20 18:10:15.672] [sharedprocess] [info] Extensions is already requested to install vscjava.vscode-maven
+[2021-11-20 18:10:25.072] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-pack /root/Escritorio/polihacks_landing/polihacks-landing-page/~/.vscode/CachedExtensionVSIXs/vscjava.vscode-java-pack-0.18.6
+[2021-11-20 18:10:25.259] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.4faae2f9-989c-4e07-887f-32ec9f1eda98: vscjava.vscode-java-pack
+[2021-11-20 18:10:25.320] [sharedprocess] [info] Renamed to /root/.vscode/extensions/vscjava.vscode-java-pack-0.18.6
+[2021-11-20 18:10:25.323] [sharedprocess] [info] Installation completed. vscjava.vscode-java-pack
+[2021-11-20 18:10:25.430] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-java-pack
+[2021-11-20 18:10:38.782] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /root/Escritorio/polihacks_landing/polihacks-landing-page/~/.vscode/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.11.2
+[2021-11-20 18:10:39.860] [sharedprocess] [info] Downloaded extension: ms-azuretools.vscode-azurefunctions /root/Escritorio/polihacks_landing/polihacks-landing-page/~/.vscode/CachedExtensionVSIXs/ms-azuretools.vscode-azurefunctions-1.6.0
+[2021-11-20 18:10:40.588] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.c00957b9-6d11-4139-a184-fded516cbb37: ms-azuretools.vscode-azurefunctions
+[2021-11-20 18:10:40.659] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-azuretools.vscode-azurefunctions-1.6.0
+[2021-11-20 18:10:40.661] [sharedprocess] [info] Installation completed. ms-azuretools.vscode-azurefunctions
+[2021-11-20 18:10:40.769] [sharedprocess] [info] Extensions installed successfully: ms-azuretools.vscode-azurefunctions
+[2021-11-20 18:10:42.995] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.31afb444-2c9b-48b6-ad73-042ba4218f7d: ms-python.vscode-pylance
+[2021-11-20 18:10:43.344] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-python.vscode-pylance-2021.11.2
+[2021-11-20 18:10:43.349] [sharedprocess] [info] Installation completed. ms-python.vscode-pylance
+[2021-11-20 18:10:43.515] [sharedprocess] [info] Extensions installed successfully: ms-python.vscode-pylance
+[2021-11-20 18:10:51.059] [sharedprocess] [info] Downloaded extension: vscjava.vscode-maven /root/Escritorio/polihacks_landing/polihacks-landing-page/~/.vscode/CachedExtensionVSIXs/vscjava.vscode-maven-0.34.1
+[2021-11-20 18:10:51.386] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.92df6a0b-dcc6-456d-98af-54aea95fdf67: vscjava.vscode-maven
+[2021-11-20 18:10:51.483] [sharedprocess] [info] Renamed to /root/.vscode/extensions/vscjava.vscode-maven-0.34.1
+[2021-11-20 18:10:51.484] [sharedprocess] [info] Installation completed. vscjava.vscode-maven
+[2021-11-20 18:10:51.681] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-maven
+[2021-11-20 18:11:38.218] [sharedprocess] [info] Downloaded extension: redhat.java /root/Escritorio/polihacks_landing/polihacks-landing-page/~/.vscode/CachedExtensionVSIXs/redhat.java-1.0.0
+[2021-11-20 18:11:38.886] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.add74982-e564-49af-9383-766a12490621: redhat.java
+[2021-11-20 18:11:38.968] [sharedprocess] [info] Renamed to /root/.vscode/extensions/redhat.java-1.0.0
+[2021-11-20 18:11:38.970] [sharedprocess] [info] Installation completed. redhat.java
+[2021-11-20 18:11:39.078] [sharedprocess] [info] Extensions installed successfully: redhat.java
