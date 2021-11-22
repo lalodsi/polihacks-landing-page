@@ -252,3 +252,58 @@ header #menu-elements{
         padding-right: 9px;
     }
 }
+
+.faqs{
+    height: 60vmax;
+}
+
+/* Zona de contacto */
+
+.contact{
+    height: 90vmax;
+    height: 560px;
+    color: #FFFFFF;
+    background-color: #010833;
+    ;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact .titulo{
+    /* position: absolute; */
+    width: 272px;
+    height: 41px;
+    /* left: 574px; */
+    /* top: 10346px; */
+
+    font-family: Sifonn Pro;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.27em;
+    margin-bottom: 50px;
+    
+}
+.contact .correo{
+    /* position: absolute; */
+    width: 259.48px;
+    height: 26.48px;
+    /* left: 579.9px; */
+    /* top: 10421.52px; */
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+@font-face {
+    font-family: 'Sifonn Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/sifonn/SIFONN_PRO.woff');
+    }
