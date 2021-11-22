@@ -257,6 +257,21 @@ header #menu-elements{
     height: 60vmax;
 }
 
+.faqs .title p{
+    width: 197px;
+    height: 62px;
+    
+    font-family: Sifonn Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    /* display: inline; */
+
+    color: white;
+}
+
 /* Zona de contacto */
 
 .contact{
