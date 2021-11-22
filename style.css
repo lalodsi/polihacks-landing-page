@@ -1,7 +1,11 @@
 
+.row {
+    margin-right: 0px;
+}
 body{
     background-color: #1a1f3c;
     font-size: 18px;
+    color: #fff;
 }
 
 header{
@@ -130,10 +134,13 @@ header #menu-elements{
 .carousel-indicators [data-bs-target]{
     height: 10px;
 }
-#getin-header:nth-child(1){
+.section-title{
     font-size: 60px;
     font-weight: 900;
     letter-spacing: 10px;
+}
+#getin-header:nth-child(1){
+    
     border-bottom-style: groove;
     border-bottom-width: 2px;
     padding-top: 154px;
@@ -153,8 +160,12 @@ header #menu-elements{
     font-weight: bold;
 }
 .agenda{
+    background-image: url("images/background/fig3_Mesa\ de\ trabajo.png");
     color: #fff;
     margin-top: 750px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+
 }
 .agenda #agenda-text{
     writing-mode: vertical-lr;
@@ -175,27 +186,69 @@ header #menu-elements{
     letter-spacing: 17px;
     font-weight: 900;
 }
-.agenda #agenda-content > p:nth-child(1){
+#agenda-header1{
     font-size: 75px;
     margin-bottom: 0px;
 }
-.agenda #agenda-content > p:nth-child(2){
+#agenda-header2{
     font-size: 20px;
     margin-bottom: 80px;
 }
 .agenda .event-card{
     margin-bottom: 50px;
     border-left-style: groove;
+    border-color: #b6ecff;
     padding-left: 40px;
     display: flex;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 18px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+}
+.agenda-day{
+    color: #b6ecff;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 40px;
 }
 .agenda .event-card p:nth-child(1){
+    padding-right: 80px;
+    font-size: 19px;
+    color: #b6ecff;
     
-    padding-right: 40px;
-    
+}
+#agenda-header{
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.bg-partners{
+    background-image: url("images/background/back2.png");
+    position: absolute;
+    width: 100%;
+    height: 2500px;
+}
+.partners{
+    text-align: center;
+}
+.partners-subtitles{
+    font-size: 23px;
+    font-weight: 700;
+    padding-bottom: 80px;
+}
+
+.partners .section-title{
+    padding-top: 250px;
+    padding-bottom: 80px;
+}
+.partners-images{
+    background-color: #fff1;
+    background: linear-gradient(-45deg, #ffffff05 0%, #fff3 100%);
+    height: 250px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.partners-images img{
+    width: 90%;
+    margin-top: 80px;
 }
 @media (max-width: 1150px) {
 
@@ -210,8 +263,9 @@ header #menu-elements{
     }
   }
 
-  @media (max-width: 970px) {
+@media (max-width: 970px) {
 
+    
     header #menu-elements{
         justify-content: space-around;
         padding-right: 0px;
@@ -227,6 +281,13 @@ header #menu-elements{
     }
     .about{
         padding-bottom: 20px;
+    }
+
+    .partners-images{
+        height: 200px;
+    }
+    .partners-images img{
+        margin-top: 60px;
     }
 }
 @media (max-width: 775px) {
@@ -251,4 +312,17 @@ header #menu-elements{
         padding-left: 9px;
         padding-right: 9px;
     }
+
+    .agenda .event-card{
+        display: block;
+    }
+
+    .partners-images{
+        height: 120px;
+    }
+    .partners-images img{
+        width: 60%;
+        margin-top: 40px;
+    }
 }
+
