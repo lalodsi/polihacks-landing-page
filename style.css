@@ -264,7 +264,7 @@ header #menu-elements{
 .partners .carousel-item {
     padding-bottom: 50px;
 }    
-.partners #judges .carousel-item img{
+.partners .person-car .carousel-item  img{
     height: 400px;
     width: 35%;
     object-fit: cover;
@@ -288,19 +288,55 @@ header #menu-elements{
     background-color: #ffffff0f;
 }
 
-.judge-description{
+.judge-description, .mentor-description{
     width: 35%;
     align-self: center;
     text-align: justify;
     padding-left: 10%;
 }
-
-.partners #facilitators .carousel-item img{
-    padding-top: 35px;
-    padding-bottom: 35px;
-    border-right-style: groove;
-    border-right-width: 1px;
+#facilitators .partners-subtitles{
+    padding-top: 100px;
 }
+#facilitators .fac-img{
+    padding-right: 0px;
+    padding-left: 0px;
+    align-self: center;
+    -webkit-writing-mode: vertical-lr;
+    min-height: 200px;
+    border-right-style: groove;
+    border-width: 1px;
+}
+#facilitators .fac-img img{
+    margin-left: 5%;
+    width: 90%;
+    
+}
+
+
+#facilitators .row .fac-img:nth-child(1){
+    border-left-style: groove;
+}
+
+
+.partners #facilitators .carousel-indicators [data-bs-target] {
+
+    width: 10px;
+    height: 10px;
+}
+
+.partners  #facilitators .carousel-item {
+    padding-bottom: 130px;
+}
+
+.sign-up{
+    margin-top: -300px;
+    padding-top: 300px;
+    /*display: flex;*/
+    justify-content: center;
+    height: 1350px;
+    background-image: url("images/background/back1-hackathon.png");
+}
+
 @media (max-width: 1150px) {
 
     .banner_text:nth-child(1) {
@@ -313,7 +349,7 @@ header #menu-elements{
         padding-top: 0px;
     }
 
-    .partners .  .carousel-item img{
+    .partners .person-car .carousel-item  img{
         height: 320px;
     }
 }
@@ -345,10 +381,10 @@ header #menu-elements{
         margin-top: 60px;
         width: 90%;
     }
-    .partners .  .carousel-item img{
+    .partners .person-car .carousel-item  img{
         height: 250px;
     }
-    .judge-description{
+    .judge-description, .mentor-description {
         padding-left: 5%;
     }
 }
@@ -374,7 +410,6 @@ header #menu-elements{
         padding-left: 9px;
         padding-right: 9px;
     }
-<<<<<<< HEAD
 
     .agenda .event-card{
         display: block;
@@ -383,7 +418,7 @@ header #menu-elements{
     .partners-images{
         height: 120px;
     }
-    .partners-images img{
+    .partners .person-car .carousel-item  img{
         width: 60%;
         margin-top: 40px;
     }
@@ -395,24 +430,25 @@ header #menu-elements{
     
 }
 
-@media (max-width: 750px) {
-    .partners .  .carousel-item img{
+@media (max-width: 762px) {
+    .partners .person-car .carousel-item  img{
         height: 320px;
         width: 80%;
     }
-    .judge-description{
+    .judge-description, .mentor-description{
         margin-top: 40px;
         width: 80%;
     }
-}
 
-@media (max-width: 450px) {
-    .partners .  .carousel-item img{
-        height: 250px;
+    .partners-images img{
+        margin-top: 30px;
     }
 }
 
-=======
+@media (max-width: 505px) {
+    .partners .person-car .carousel-item  img {
+        height: 240px;
+    }
 }
 
 .faqs{
@@ -484,4 +520,3 @@ header #menu-elements{
     font-weight: normal;
     src: url('./fonts/sifonn/SIFONN_PRO.woff');
     }
->>>>>>> 08dc253c448d82278ec4e846630fc48fe0131f3f
