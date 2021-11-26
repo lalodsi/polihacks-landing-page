@@ -1,6 +1,7 @@
 
-.row {
+.row { 
     margin-right: 0px;
+    margin-left: 0px;
 }
 body{
     background-color: #1a1f3c;
@@ -263,12 +264,12 @@ header #menu-elements{
 .partners .carousel-item {
     padding-bottom: 50px;
 }    
-.partners .carousel-item img{
+.partners #judges .carousel-item img{
     height: 400px;
     width: 35%;
     object-fit: cover;
 }
-.partners .carousel-indicators{
+.partners #judges .carousel-indicators{
     margin-left: -40%;
     margin-right: 0%;
 }
@@ -293,6 +294,13 @@ header #menu-elements{
     text-align: justify;
     padding-left: 10%;
 }
+
+.partners #facilitators .carousel-item img{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-right-style: groove;
+    border-right-width: 1px;
+}
 @media (max-width: 1150px) {
 
     .banner_text:nth-child(1) {
@@ -305,7 +313,7 @@ header #menu-elements{
         padding-top: 0px;
     }
 
-    .partners .carousel-item img{
+    .partners .  .carousel-item img{
         height: 320px;
     }
 }
@@ -337,7 +345,7 @@ header #menu-elements{
         margin-top: 60px;
         width: 90%;
     }
-    .partners .carousel-item img{
+    .partners .  .carousel-item img{
         height: 250px;
     }
     .judge-description{
@@ -380,7 +388,7 @@ header #menu-elements{
         margin-top: 40px;
     }
     
-    .partners .carousel-indicators{
+    .partners #judges .carousel-indicators{
         margin-left: 0%;
         margin-right: 0%;
     }
@@ -388,7 +396,7 @@ header #menu-elements{
 }
 
 @media (max-width: 750px) {
-    .partners .carousel-item img{
+    .partners .  .carousel-item img{
         height: 320px;
         width: 80%;
     }
@@ -399,7 +407,7 @@ header #menu-elements{
 }
 
 @media (max-width: 450px) {
-    .partners .carousel-item img{
+    .partners .  .carousel-item img{
         height: 250px;
     }
 }
