@@ -13,7 +13,7 @@
             "backupPath": "/root/Escritorio/polihacks_landing/polihacks-landing-page/~/.vscode/Backups/acc5e952dd8007fd80a01d126b36d184",
             "uiState": {
                 "mode": 0,
-                "x": 42,
+                "x": 224,
                 "y": 123,
                 "width": 1020,
                 "height": 528
@@ -40,7 +40,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -79,7 +79,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -420,7 +421,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar"
+                                    "label": "Show &&Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
