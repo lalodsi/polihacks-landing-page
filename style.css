@@ -529,6 +529,33 @@ header #menu-elements{
     color: white;
 }
 
+.accordion{
+    color: white;
+    background-color: #1a1f3c;
+}
+
+.accordion-item{
+    border: none;
+    border-bottom: 1px solid white;
+    color: inherit;
+    background-color: inherit;
+    
+}
+
+.accordion-header .accordion-button{
+    color: white;
+    background-color: inherit;
+}
+
+.accordion-collapse{
+    background-color: inherit;
+    
+}
+
+.accordion-button::after{
+    
+}
+
 /* Zona de contacto */
 
 .contact{
