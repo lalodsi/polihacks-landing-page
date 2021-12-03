@@ -720,3 +720,7 @@ header #menu-elements{
     font-weight: normal;
     src: url('./fonts/sifonn/SIFONN_PRO.woff');
     }
+
+.sign-up{ /*Evita que se junten algunas secciones*/
+    margin-top: 1300px;
+}
