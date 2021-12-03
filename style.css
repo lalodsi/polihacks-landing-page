@@ -79,6 +79,9 @@ header #menu-elements{
     border: none;
 
 }
+#sign-up-button button:hover{
+    background-color: #ffd979;
+}
 #sign-up-button{
     background: #FFFFFF30;
     display: inline;
