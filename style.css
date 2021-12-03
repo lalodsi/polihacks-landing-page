@@ -10,6 +10,11 @@ body{
     /*font-family: 'Sifonn Pro';*/
 }
 
+.mhl-logo{
+    float: right;
+    padding-right: 50px;
+}
+
 header{
     padding-top: 40px;
     padding-left: 60px;
