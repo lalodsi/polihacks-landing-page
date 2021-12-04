@@ -266,13 +266,14 @@ header #menu-elements{
 }
 .bg-partners{
     background-image: url("images/background/back2.png");
+    background-repeat: no-repeat;
     position: absolute;
     width: 100%;
     height: 2500px;
     z-index: -1;
 }
 .partners{
-    margin-top: 500px;
+    margin-top: 50px;
     text-align: center;
 }
 .partners-subtitles{
