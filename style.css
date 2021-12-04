@@ -10,7 +10,7 @@ body{
     /*font-family: 'Sifonn Pro';*/
 }
 
-.mhl-logo{
+.mlh-logo{
     float: right;
     padding-right: 50px;
 }
@@ -103,6 +103,32 @@ header #menu-elements{
 }
 .about > div{
     margin-right: 0px;
+}
+
+.about-title{
+    font-family: Sifonn Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 0.14em;
+
+    color: #FFFFFF;
+
+    transform: rotate(90deg);
+}
+
+.about-elipse{
+    position: relative;
+    width: 318px;
+    height: 318px;
+    left: 230px;
+    top: -450px;
+    border-radius: 50%;
+
+    background: linear-gradient(154.07deg, rgba(196, 196, 196, 0.324) 16.36%, rgba(196, 196, 196, 0) 101.9%);
+    filter: drop-shadow(9px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(4px);
 }
 
 #about-text{
