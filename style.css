@@ -114,7 +114,7 @@ header #menu-elements{
     font-size: 60px;
     line-height: 60px;
     letter-spacing: 0.14em;
-
+    text-align: center;
     color: #FFFFFF;
 
     transform: rotate(90deg);
@@ -604,8 +604,15 @@ header #menu-elements{
     
     .about-title{
         transform: rotate(0);
+        font-size: 40px;
+    }
+    #getin-header{
+        font-size: 30px;
     }
 
+    .contact .titulo{
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 762px) {
@@ -771,7 +778,7 @@ header #menu-elements{
 
 .contact .titulo{
     /* position: absolute; */
-    width: 272px;
+    width: fit-content;
     height: 41px;
     /* left: 574px; */
     /* top: 10346px; */
