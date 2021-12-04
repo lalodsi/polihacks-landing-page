@@ -3,6 +3,14 @@
     margin-right: 0px;
     margin-left: 0px;
 }
+a{
+    color: #6f9dff;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: #bdd2ff;
+}
 body{
     background-color: #1a1f3c;
     font-size: 18px;
