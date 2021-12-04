@@ -267,6 +267,7 @@ header #menu-elements{
     z-index: -1;
 }
 .partners{
+    margin-top: 500px;
     text-align: center;
 }
 .partners-subtitles{
@@ -290,6 +291,10 @@ header #menu-elements{
     height: 250px;
     border-radius: 20px;
     margin: 10px;
+}
+.partners-images:hover{
+    background: linear-gradient(-45deg, #ffffff26 0%, #ffffff42 100%);
+    cursor: pointer;
 }
 
 #organizers-subtitle{
@@ -453,6 +458,42 @@ header #menu-elements{
     width: 93%;
     margin: 0px;
 }
+
+@media (min-width: 2560px){
+    .partners-images img{
+        margin-top: 2%;
+    }
+    .partners-images:last-child{
+        padding-top: 2%;
+    }
+    .partners-images{
+        height: 300px;
+    }
+    #partners-images img{
+        width: 30%;
+    }
+}
+@media (max-width: 2560px){
+    .partners-images img{
+        margin-top: 30px;
+    }
+    .partners-images:last-child{
+        padding-top: 2%;
+    }
+    /* #partners-images img{
+        width: 30%;
+    } */
+}
+
+@media (max-width: 2000px){
+    .partners-images img{
+        margin-top: 15%;
+    }
+    .partners-images{
+        height: 200px;
+    }
+}
+
 @media (max-width: 1150px) {
 
     .banner_text:nth-child(1) {
@@ -748,5 +789,14 @@ header #menu-elements{
     }
 
 .sign-up{ /*Evita que se junten algunas secciones*/
-    margin-top: 1300px;
+    /* margin-top: 1300px; */
+}
+.bg-partners{
+    height: 1000px;
+}
+#getin-bg .row div:nth-child(2){
+    min-height: 1000px;
+}
+#organizers-subtitle {
+    margin-top: 50px;
 }
