@@ -21,6 +21,8 @@ header{
     padding-right: 100px;
     background-image: url("images/background/hackathon.png");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 header .navbar-nav a{
     color: white;
@@ -292,10 +294,11 @@ header #menu-elements{
     border-radius: 20px;
     margin: 10px;
 }
-.partners-images:hover{
+/* Por si las comunidades tienen web */
+/* .partners-images:hover{
     background: linear-gradient(-45deg, #ffffff26 0%, #ffffff42 100%);
     cursor: pointer;
-}
+} */
 
 #organizers-subtitle{
     margin-top: 1000px;
