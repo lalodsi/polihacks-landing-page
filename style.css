@@ -602,6 +602,10 @@ header #menu-elements{
         margin-right: 0%;
     }
     
+    .about-title{
+        transform: rotate(0);
+    }
+
 }
 
 @media (max-width: 762px) {
@@ -662,7 +666,7 @@ header #menu-elements{
 
 @media (max-width: 450px) {
     header{
-        padding-left: 0px;
+        padding-left: 20px;
         padding-right: 0px;
         
     }
