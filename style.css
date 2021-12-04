@@ -142,6 +142,9 @@ header #menu-elements{
     width: 100%;
     
     background-image: url("images/background/back3.png");
+    background-size: cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
 }
 #getin-bg > div, #getin-content >div{
     margin-right: 0px;
@@ -409,6 +412,9 @@ header #menu-elements{
     height: 1350px;
     align-content: start;
     background-image: url("images/background/back1-hackathon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .sign-up p{ 
     font-size: 50px;
@@ -792,11 +798,11 @@ header #menu-elements{
     }
 
 .sign-up{ /*Evita que se junten algunas secciones*/
-    /* margin-top: 1300px; */
+    margin-top: 200px;
 }
-.bg-partners{
+/* .bg-partners{
     height: 1000px;
-}
+} */
 #getin-bg .row div:nth-child(2){
     min-height: 1000px;
 }
