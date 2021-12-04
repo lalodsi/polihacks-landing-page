@@ -38,6 +38,20 @@ header #menu-elements{
     min-width: fit-content;
 }
 
+.dropdown{
+    width: 50px;
+    color: rgba(255,255,255,.55);
+}
+.dropdown-item, .dropdown-menu{
+    background-color: #fff0;
+    border: transparent;
+    border-radius: 15%;
+}
+.dropdown-item:hover{
+    background-color: rgba(255, 255, 255, 0.226);
+    color: white;
+}
+
 #logo{
     width: 100px;
 }
