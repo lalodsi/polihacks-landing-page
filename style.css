@@ -397,6 +397,17 @@ header #menu-elements{
     border-left-style: groove;
 }
 
+.card{
+    background-color: #ffffff00;
+    border: none;
+    height: 450px;
+}
+
+.card-img-top{
+    /* max-height: 300px; */
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 .partners #facilitators .carousel-indicators [data-bs-target] {
 
