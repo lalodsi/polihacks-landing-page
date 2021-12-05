@@ -177,14 +177,14 @@ header #menu-elements{
     background-image: url("images/background/fig2_Mesa de trabajo.png");
     background-size: contain;
     min-width: 40%;
-    min-height: 1500px;
+    min-height: 1000px;
     background-repeat: no-repeat;
 }
 #getin-bg .row div:nth-child(2){
     background-image: url("images/background/fig4_Mesa de trabajo.png");
-    background-size: contain;
+    background-size: cover;
     min-width: 40%;
-    min-height: 1500px;
+    min-height: 1000px;
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -759,6 +759,17 @@ header #menu-elements{
     color: white;
 }
 
+#partners-images a img{
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#partners-images a img:hover{
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 5%;
+    /* border-color: #fff; */
+}
+
 .accordion{
     color: white;
     background-color: #1a1f3c;
@@ -790,7 +801,7 @@ header #menu-elements{
 
 .contact{
     height: 90vmax;
-    height: 560px;
+    height: 800px;
     color: #FFFFFF;
     background-color: #010833;
     ;
@@ -843,9 +854,9 @@ header #menu-elements{
 /* .bg-partners{
     height: 1000px;
 } */
-#getin-bg .row div:nth-child(2){
+/* #getin-bg .row div{
     min-height: 1000px;
-}
+} */
 #organizers-subtitle {
     margin-top: 50px;
 }
