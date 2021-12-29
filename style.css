@@ -848,6 +848,26 @@ header #menu-elements{
     src: url('./fonts/sifonn/SIFONN_PRO.woff');
     }
 
+#aliados .fac-img{
+    padding-right: 0px;
+    padding-left: 0px;
+    align-self: center;
+    -webkit-writing-mode: vertical-lr;
+    min-height: 200px;
+    border-right-style: groove;
+    border-width: 1px;
+}
+#aliados .fac-img img{
+    margin-left: 5%;
+    width: 90%;
+    
+}
+
+
+#aliados .row .fac-img:nth-child(1){
+    border-left-style: groove;
+}
+
 .sign-up{ /*Evita que se junten algunas secciones*/
     margin-top: 200px;
 }
