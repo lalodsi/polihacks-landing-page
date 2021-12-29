@@ -400,6 +400,17 @@ header #menu-elements{
     border-left-style: groove;
 }
 
+.card{
+    background-color: #ffffff00;
+    border: none;
+    height: 450px;
+}
+
+.card-img-top{
+    /* max-height: 300px; */
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 .partners #facilitators .carousel-indicators [data-bs-target] {
 
@@ -850,6 +861,19 @@ header #menu-elements{
     font-weight: normal;
     src: url('./fonts/sifonn/SIFONN_PRO.woff');
     }
+
+.badge-GDSC {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+.badge-MLSA {
+    color: #fff;
+    background-color: rgb(16, 110, 190);
+}
+.badge-WIE {
+    color: #fff;
+    background-color: #ba00db;
+}
 
 .sign-up{ /*Evita que se junten algunas secciones*/
     margin-top: 200px;
