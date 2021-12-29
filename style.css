@@ -327,6 +327,9 @@ header #menu-elements{
     background: linear-gradient(-45deg, #ffffff26 0%, #ffffff42 100%);
     cursor: pointer;
 } */
+.imagen-patrocinador img{
+    height: 120px;
+}
 
 #organizers-subtitle{
     margin-top: 1000px;
