@@ -701,13 +701,33 @@ header #menu-elements{
     }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 768px) {
     #facilitators .fac-img {
         border-right-style: none;
         border-bottom-style: groove;
     }
     #facilitators .row .fac-img:nth-child(1){
         border-left-style: none;
+    }
+    #aliados .fac-img{
+        padding-right: 0px;
+        padding-left: 0px;
+        align-self: center;
+        -webkit-writing-mode: vertical-lr;
+        min-height: 200px;
+        border-bottom-style: groove;
+        border-width: 1px;
+    }
+    #aliados .row .fac-img:nth-child(1){
+        border-top-style: groove;
+    }
+}
+@media (min-width: 769px){
+    #aliados .fac-img{
+        border-right-style: groove;
+    }
+    #aliados .row .fac-img:nth-child(1){
+        border-left-style: groove;
     }
 }
 @media (max-width: 505px) {
@@ -875,7 +895,6 @@ header #menu-elements{
     align-self: center;
     -webkit-writing-mode: vertical-lr;
     min-height: 200px;
-    border-right-style: groove;
     border-width: 1px;
 }
 #aliados .fac-img img{
@@ -884,10 +903,6 @@ header #menu-elements{
     
 }
 
-
-#aliados .row .fac-img:nth-child(1){
-    border-left-style: groove;
-}
 .badge-GDSC {
     color: rgb(0, 0, 0);
     background-color: #ffffff;
