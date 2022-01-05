@@ -332,6 +332,9 @@ header #menu-elements{
     background: linear-gradient(-45deg, #ffffff26 0%, #ffffff42 100%);
     cursor: pointer;
 } */
+.imagen-patrocinador{
+    width: 100%;
+}
 .imagen-patrocinador img{
     height: 120px;
 }
@@ -659,6 +662,10 @@ header #menu-elements{
 
     .contact .titulo{
         font-size: 35px;
+    }
+    .imagen-patrocinador img{
+        height: auto;
+        width: inherit;
     }
 }
 
