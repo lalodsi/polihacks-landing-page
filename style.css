@@ -528,6 +528,10 @@ header #menu-elements{
     #partners-images img{
         width: 30%;
     }
+    .imagen-patrocinador img{
+        height: auto;
+        /* width: auto; */
+    }
 }
 @media (max-width: 2560px){
     .partners-images img{
