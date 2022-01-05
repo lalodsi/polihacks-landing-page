@@ -346,6 +346,14 @@ header #menu-elements{
     /* background: linear-gradient(-45deg, #00000013 0%, #00000038 100%); */
     height: 250px;
 }
+.aliados-images.not-dark{
+    background-color: ivory;
+    /* background: linear-gradient(-45deg, #ffffff62 0%, #ffffffb7 100%); */
+    
+    border-style: solid;
+    border-color: #ffffff1c;
+    border-width: 1px;
+}
 /* Por si las comunidades tienen web */
 /* .partners-images:hover{
     background: linear-gradient(-45deg, #ffffff26 0%, #ffffff42 100%);
