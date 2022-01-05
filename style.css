@@ -332,6 +332,9 @@ header #menu-elements{
     background: linear-gradient(-45deg, #ffffff26 0%, #ffffff42 100%);
     cursor: pointer;
 } */
+.imagen-patrocinador img{
+    height: 120px;
+}
 
 #organizers-subtitle{
     margin-top: 1000px;
@@ -402,6 +405,17 @@ header #menu-elements{
     border-left-style: groove;
 }
 
+.card{
+    background-color: #ffffff00;
+    border: none;
+    height: 450px;
+}
+
+.card-img-top{
+    /* max-height: 300px; */
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 .partners #facilitators .carousel-indicators [data-bs-target] {
 
@@ -871,6 +885,18 @@ header #menu-elements{
 
 #aliados .row .fac-img:nth-child(1){
     border-left-style: groove;
+}
+.badge-GDSC {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+.badge-MLSA {
+    color: #fff;
+    background-color: rgb(16, 110, 190);
+}
+.badge-WIE {
+    color: #fff;
+    background-color: rgb(119, 37, 131);
 }
 
 .sign-up{ /*Evita que se junten algunas secciones*/
