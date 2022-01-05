@@ -322,6 +322,11 @@ header #menu-elements{
     border-radius: 20px;
     margin: 10px;
 }
+.aliados-images{
+    background-color: rgba(126, 126, 126, 0.067);
+    background: linear-gradient(-45deg, #00000013 0%, #00000038 100%);
+    height: 250px;
+}
 /* Por si las comunidades tienen web */
 /* .partners-images:hover{
     background: linear-gradient(-45deg, #ffffff26 0%, #ffffff42 100%);
