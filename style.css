@@ -365,6 +365,9 @@ header #menu-elements{
 .imagen-patrocinador img{
     height: 120px;
 }
+.bego img{
+    height: 280px;
+}
 
 #organizers-subtitle{
     margin-top: 1000px;
