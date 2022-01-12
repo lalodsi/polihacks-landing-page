@@ -410,11 +410,14 @@ header #menu-elements{
 }
 
 .judge-description, .mentor-description{
-    width: 35%;
+    width: 45%;
     align-self: center;
     text-align: justify;
     padding-left: 10%;
 }
+/* .judge-description p:first-child{
+    font-weight: bold;
+} */
 #facilitators .partners-subtitles{
     padding-top: 100px;
 }
@@ -458,6 +461,10 @@ header #menu-elements{
     background: none;
     border: solid;
     border-width: thin;
+}
+#carouselJueces{
+    position: static;
+    margin-top: 15px;
 }
 
 .partners #facilitators  .carousel-indicators .active {
