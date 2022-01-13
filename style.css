@@ -925,6 +925,9 @@ header #menu-elements{
     color: #fff;
     background-color: rgb(119, 37, 131);
 }
+#language-button:hover{
+    cursor: pointer;
+}
 
 .sign-up{ /*Evita que se junten algunas secciones*/
     margin-top: 200px;

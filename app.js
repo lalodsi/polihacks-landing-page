@@ -1,6 +1,5 @@
-cambiarIdioma('español', 'english')
 let lang = navigator.language
-console.log(lang)
+cambiarIdioma('español', 'english')
 
 // if((lang.toLocaleLowerCase().includes('es')) && (window.location.toString().toLocaleLowerCase().includes('index_es.html')==false)){
 //     window.location="./index_es.html"
@@ -10,13 +9,9 @@ const langButton = document.getElementById('language-button');
 
 langButton.addEventListener('click', () =>{
     if (lang == 'es-419') {
-        console.log('Changing to english');
-        lang = 'en'
         cambiarIdioma('español', 'english')
     }
     else{
-        console.log('Cambiando a español');
-        lang = navigator.language
         cambiarIdioma('english', 'español')
     }
 })
@@ -31,4 +26,13 @@ function cambiarIdioma(languageHidden, languageShowed){
         element.setAttribute('style', 'display: inline;')
         // element.style.visibility = 'visible';
     } )
+
+    if (lang == 'es-419') {
+        console.log('Changing to english');
+        lang = 'en'
+    }
+    else{
+        console.log('Cambiando a español');
+        lang = navigator.language
+    }
 }
