@@ -23,7 +23,7 @@ function cambiarIdioma(languageHidden, languageShowed){
         element.setAttribute('style', 'display: none;')
     } )
     Idioma2.forEach( element => {
-        element.setAttribute('style', 'display: inline;')
+        element.setAttribute('style', 'display: inherit;')
         // element.style.visibility = 'visible';
     } )
 

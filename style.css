@@ -129,7 +129,8 @@ header #menu-elements{
     margin-right: 0px;
 }
 
-.about-title{
+.about-title > p{
+    
     position: relative;
     top: -100px;
     font-family: Sifonn Pro;
@@ -214,10 +215,10 @@ header #menu-elements{
     padding-top: 154px;
     padding-bottom: 15px;
 }
-#getin-content .carousel-item p:nth-child(1){
+#getin-content .carousel-item .getin-title{
     font-size: 52px;
 }    
-#getin-content .carousel-item p:nth-child(2){
+#getin-content .carousel-item .getin-content{
     margin-top: 36px;
     padding-bottom: 100px;
 }    
@@ -504,12 +505,20 @@ header #menu-elements{
     font-size: 50px;
     font-weight: 700;
     padding-bottom: 70px;
+    text-align: center;
+    display: block;
 }
 .sign-up #sign-up-button{
     width: fit-content;
 
     padding-top: 15px;
     padding-bottom: 15px;
+}
+#contenedor-reto > div{
+    /* width: fit-content; */
+    /* display: flex;
+    text-align: center; */
+    display: inline-block;
 }
 #sign-up-bg{
     padding-top: 300px;
@@ -656,7 +665,7 @@ header #menu-elements{
         margin-right: 0%;
     }
     
-    .about-title{
+    .about-title > p{
         position: static;
         transform: rotate(0);
         font-size: 40px;
