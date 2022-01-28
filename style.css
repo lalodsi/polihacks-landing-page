@@ -364,9 +364,18 @@ header #menu-elements{
 }
 .imagen-patrocinador img{
     height: 120px;
+    margin-top: 30px;
 }
 .bego img{
     height: 280px;
+}
+.github img{
+    height: 220px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5%;
+}
+.github img:hover{
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 #organizers-subtitle{
