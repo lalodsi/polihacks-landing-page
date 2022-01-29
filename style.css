@@ -364,19 +364,31 @@ header #menu-elements{
     width: 100%;
 }
 .imagen-patrocinador img{
-    height: 120px;
+    /* height: 120px;    */
     margin-top: 30px;
+    margin-right: 30px;
 }
-.bego img{
-    height: 280px;
+#primer-nivel > a > img{
+    width: 450px;
+    
 }
-.github img{
-    height: 220px;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 5%;
+#segundo-nivel > a > img{
+    height: 180px;
 }
-.github img:hover{
-    background-color: rgba(255, 255, 255, 0.7);
+#tercer-nivel > a > img{
+    height: 130px;
+    
+}
+.horizontal > img{
+    height: 100px !important;
+}
+.dark-photo img{
+    /* height: 220px; */
+    background-color: rgba(255, 255, 255, 0.4);
+    /* border-radius: 5%; */
+}
+.dark-photo img:hover{
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 #organizers-subtitle{
@@ -571,7 +583,7 @@ header #menu-elements{
 }
 
 @media (min-width: 2560px){
-    #partners-images img{
+    .images-socios img{
         width: 30%;
     }
     .imagen-patrocinador img{
@@ -828,16 +840,17 @@ header #menu-elements{
     color: white;
 }
 
-#partners-images a img{
+.images-socios a img{
     border: 1px solid rgba(255, 255, 255, 0);
 }
 
-#partners-images a img:hover{
+.images-socios a img:hover{
     cursor: pointer;
     border: 1px solid #fff;
     border-radius: 5%;
     /* border-color: #fff; */
 }
+
 
 .accordion{
     color: white;
