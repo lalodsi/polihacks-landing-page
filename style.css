@@ -404,7 +404,7 @@ header #menu-elements{
 .partners .person-car .carousel-item  img{
     height: 400px;
     width: 35%;
-    object-fit: cover;
+    object-fit: contain;
 }
 .partners #judges .carousel-indicators{
     margin-left: -40%;
