@@ -28,11 +28,9 @@ function cambiarIdioma(languageHidden, languageShowed){
     } )
 
     if (lang == 'es-419') {
-        console.log('Changing to english');
         lang = 'en'
     }
     else{
-        console.log('Cambiando a español');
         lang = navigator.language
     }
 }
